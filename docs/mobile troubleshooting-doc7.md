@@ -8,4 +8,4 @@ If you are on mobile and you find that you cannot add Rythm due to the fact that
 
 **If that does not work**, we recommend using a desktop device to invite Rythm.
 
-**In short:** You may want to try refreshing the website to add Rythm or use a desktop device.
+**In short:** You may want to try refreshing the website to add Rythm or use a desktop device!
