@@ -156,8 +156,8 @@ Rythm will announce songs in the channel the command is used. Look below to see 
 You can view more than one queue pages by doing the following below.
 
 1. To view more queue pages `!queue <Page_Number>`.
-    + **Example:** `!queue <2>`
-    + **Example:** `!queue <3>`
+    + **Example:** `!queue 2`
+    + **Example:** `!queue 3`
 
 ![QueueNumber](/static/img/faq/queue-number.png)
 
@@ -297,7 +297,7 @@ In this case if you do not want users having the `Manage Channel` permission to 
 
 1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `DJ`.
 2. You can use the following command to set another DJ Role: Command usage `!settings djrole @role/role-name`.
-    + **Example:** `!settings djrole <NewDJRole>`
+    + **Example:** `!settings djrole NewDJRole`
     + **Example:** `!settings djrole @NewDJRole`
 3. The DJ role has to be assigned manually and cannot be given to all users at once, unless you are using another bot that supports giving all roles to users at once.
 
@@ -332,8 +332,8 @@ These are the options you can access through Rythm’s settings menu.
 
 1. To access this menu use the command `!settings`.
 2. Rythm should then display a menu showing the settings that can be changed.
-3. For more information on a setting just type: `!settings Setting-Name`.
-    + **Example:** `!settings <blacklist>`
+3. For more information on a setting just type: `!settings <Setting-Name>`.
+    + **Example:** `!settings blacklist`
 
 ![SettingsBlacklistTest](/static/img/faq/settings-blacklist-test.png)
 
@@ -368,8 +368,8 @@ Turning On/Off Announcesongs
 
 1. Sends a message to a text channel announcing every song when they start.
 2. Command usage `!settings announcesongs <on/off>`.
-    + **Example:** `!settings announcesongs <on>`.
-    + **Example:** `!settings announcesongs <off>`.
+    + **Example:** `!settings announcesongs on`.
+    + **Example:** `!settings announcesongs off`.
 
 ![AnnounceSongs](/static/img/faq/announce-songs.png)
 
@@ -378,8 +378,8 @@ Limiting queue length
 
 1. Limits the max number of songs the queue can hold before refusing to allow users to add any more.
 2. Command usage `!settings maxqueuelength <Number/disable>`.
-    + **Example:** `!settings maxqueuelength <25>`.
-    + **Example:** `!settings maxqueuelength <disable>`.
+    + **Example:** `!settings maxqueuelength 25`.
+    + **Example:** `!settings maxqueuelength disable`.
 
 ![MaxQueueLength](/static/img/faq/max-queue-length.png)
 
@@ -388,8 +388,8 @@ Limiting the amount of songs a single user can request
 
 1. Limits how many songs the user can queue at one time, can be disabled by typing disable instead of a number.
 2. Command usage `!settings maxusersongs <Number/disable>`.
-    + **Example:** `!settings maxusersongs <5>`.
-    + **Example:** `!settings maxusersongs <disable>`.
+    + **Example:** `!settings maxusersongs 5`.
+    + **Example:** `!settings maxusersongs disable`.
 
 ![MaxUserSongs](/static/img/faq/max-user-songs.png)
 
@@ -398,8 +398,8 @@ Getting Rythm to automatically remove duplicate songs
 
 1. Prevents users from adding songs to the queue that are already in the current queue.
 2. Command usage `!settings preventduplicates <on/off>`.
-    + **Example:** `!settings preventduplicates <on>`.
-    + **Example:** `!settings preventduplicates <off>`.
+    + **Example:** `!settings preventduplicates on`.
+    + **Example:** `!settings preventduplicates off`.
 
 ![PreventDuplicates](/static/img/faq/prevent-duplicates.png)
 
@@ -408,8 +408,8 @@ Enabling DJ only mode
 
 1. Sets the server to run in DJ only mode, allowing only users with the DJ role or the Manage Channels permission to use Rythm's music commands.
 2. Command usage `!settings djonly <on/off>`.
-    + **Example:** `!settings djonly <on>`.
-    + **Example:** `!settings djonly <off>`.
+    + **Example:** `!settings djonly on`.
+    + **Example:** `!settings djonly off`.
 
 ![DJOnly](/static/img/faq/dj-only.png)
 
@@ -418,7 +418,7 @@ Setting a custom DJ role
 
 1. Sets a custom role to work as DJ with Rythm.
 2. Command usage `!settings djrole role/@role`.
-    + **Example:** `!settings djrole <DJAdmin>`.
+    + **Example:** `!settings djrole DJAdmin`.
     + **Example:** `!settings djrole @DJAdmin`.
 
 ![DJRole](/static/img/faq/dj-role.png)
@@ -432,8 +432,8 @@ Enabling DJ Playlists
 
 1. When enabled only DJ's are able to queue playlists.
 2. Command usage `!settings djplaylists <on/off>`.
-    + **Example:** `!settings djplaylists <on>`.
-    + **Example:** `!settings djplaylists <off>`.
+    + **Example:** `!settings djplaylists on`.
+    + **Example:** `!settings djplaylists off`.
 
 ![DJPlaylists](/static/img/faq/dj-playlists.png)
 
@@ -443,7 +443,7 @@ Enabling/Disabling autoplay*
 1. Autoplay feature once setup with your own playlist, Rythm will queue songs from it once the queue is empty.
 2. Command usage !settings autoplay URL/disable
     + **Example:** `!settings autoplay https://www.youtube.com/watch?v=N_qFfQ3xHCw`.
-    + **Example:** `!settings autoplay <disable>`.
+    + **Example:** `!settings autoplay disable`.
 
 :::info Information 
 This feature is donator exclusive.
@@ -454,7 +454,7 @@ Setting Rythm's default volume*
 
 1. Sets the default volume for Rythm when joining` a channel after being summoned.
 2. Command usage `!settings defaultvolume <Number>`.
-    + **Example:** `!settings defaultvolume <100>`.
+    + **Example:** `!settings defaultvolume 100`.
 
 :::info Information 
 This feature is donator exclusive.
